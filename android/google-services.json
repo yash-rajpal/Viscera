@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "277068007472",
+    "firebase_url": "https://fir-testproj-34665.firebaseio.com",
+    "project_id": "fir-testproj-34665",
+    "storage_bucket": "fir-testproj-34665.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277068007472:android:37436cbf62c5da391045f5",
+        "android_client_info": {
+          "package_name": "com.vit.viscera"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277068007472-3bmke4p7coarf1p048pk8dkn5c60sbvk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtvEYJfSlojXJikrO8Nr9wjyY4mlJw3I0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277068007472-3bmke4p7coarf1p048pk8dkn5c60sbvk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

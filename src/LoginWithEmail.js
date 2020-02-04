@@ -15,7 +15,7 @@ import { db } from './config';
 import * as firebase from 'firebase'
 import { TouchableOpacity } from 'react-native-gesture-handler';
 import LoginLayout from './LoginLayout';
-
+import GoogleLoginController from './GoogleLogin'
 const screenWidth = Math.round(Dimensions.get('window').width);  
 const screenHeight = Math.round(Dimensions.get('window').height);
 
@@ -147,6 +147,7 @@ export default class LoginWithEmail extends Component {
                               Forgot Password
                             </Text>
                         </TouchableOpacity>
+                        {/* <GoogleLoginController /> */}
                     </View>
                 </View>
             </View> 

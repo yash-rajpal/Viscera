@@ -11,12 +11,14 @@ import home from './src/home';
 import LoginWithEmail  from './src/LoginWithEmail'
 import LoginWithMobile from './src/LoginWithMobile';
 import {createAppContainer} from 'react-navigation';
+import GoogleLoginController from './src/GoogleLogin'
 import {createStackNavigator} from 'react-navigation-stack'
 
 
 
 const AppStackNav = createStackNavigator({
  // LoginWithMobile:{screen:LoginWithMobile},
+ GoogleLogin : GoogleLoginController,
   LoginWithEmail:{screen:LoginWithEmail},
   home:{screen: home},
   
